@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+}
+
+th,
+td,
+table {
+  border: 1px solid #ccc;
+}
+
+table {
+  border-collapse: collapse;
+  margin-right: 0 16px;
+}
+
+td,
+th {
+  padding: 4px 8px;
+}
+
+td {
+  text-align: right;
+}
+
+th {
+  text-align: left;
+  font-weight: normal;
+}
+
+.dark {
+  background: #f7f7ff;
+  font-weight: bold;
+}
+
+.dark th {
+  font-weight: bold;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+
+.w {
+  background: #f7fff7;
+}
+
+.c {
+  background: #fff0f0;
+}
